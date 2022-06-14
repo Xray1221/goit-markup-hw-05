@@ -60,7 +60,7 @@
       <section class="service-section">
         <div class="container service-wrapper">
           <h1 class="title-service">Эффективные решения для вашего бизнеса</h1>
-          <button class="btn-service" type="button">Заказать услугу</button>
+          <button class="btn-service" type="button" data-modal-open>Заказать услугу</button>
         </div>
       </section>
       <!--Как мы работаем-->
@@ -437,6 +437,16 @@
         </div>
       </div>
     </footer>
+    <!-- modal window -->
+    <div class="modal-backdrop is-hidden" data-modal>
+      <div class="modal-content">
+        <button class="btn-closed" type="button" data-modal-close>
+          <svg class="closed-icon" width="11" height="11">
+            <use href="./img/icons.svg#icon-Vector-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <!-- js -->
     <script src="./js/modal.js"></script>
   </body>
